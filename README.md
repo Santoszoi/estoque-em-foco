@@ -90,7 +90,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-On Linux CI, install browser dependencies with `npx playwright install --with-deps chromium`. A prepared GitHub Actions workflow runs unit tests, build and browser checks. It has **not** been executed on GitHub in this delivery.
+On Linux CI, install browser dependencies with `npx playwright install --with-deps chromium`. The GitHub Actions workflow runs unit tests, build and browser checks. [The published code passed CI on October 19, 2026](https://github.com/Santoszoi/estoque-em-foco/actions/runs/39261290676).
 
 Actual local results and environment are recorded in [VALIDATION.md](docs/VALIDATION.md), with [unit output](docs/unit-test-output.txt), [build output](docs/build-output.txt) and [browser output](docs/browser-test-output.txt).
 
@@ -118,4 +118,4 @@ This project focuses on selecting stock items. It is different from a complete P
 
 [Five-day study guide](docs/ROTEIRO-5-DIAS.md) · [Portuguese LinkedIn draft](docs/LINKEDIN.md) · [Publishing checklist](docs/PUBLICAR.md)
 
-Prepared for review. No GitHub, LinkedIn or hosting publication was made automatically.
+Published with authorization from Marcos Neves. [LinkedIn demonstration](https://www.linkedin.com/feed/update/urn:li:activity:7517941135198187520/). No production hosting deployment is included.
