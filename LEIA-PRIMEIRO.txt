@@ -1,0 +1,25 @@
+ESTOQUE EM FOCO · Marcos Solutions
+
+1. Instale o Node.js 24 ou superior.
+2. Extraia toda a pasta estoque-em-foco.
+3. Abra um terminal dentro dela e rode:
+   npm ci
+   npm run dev
+4. Abra o endereço exibido no terminal.
+
+Não abra index.html por duplo clique e não use Live Server.
+Este projeto usa React + TypeScript + Vite.
+
+Para validar:
+   npm test
+   npm run build
+   npx playwright install chromium
+   npm run test:e2e
+
+README.md: documentação técnica em inglês.
+docs/ROTEIRO-5-DIAS.md: estudo e preparação para entrevista.
+docs/LINKEDIN.md: texto em português para revisão.
+docs/VALIDATION.md: resultados e limites verificados.
+media/: capturas e vídeo da interface real.
+
+Dados fictícios. Sem login, API ou estoque real. Nada foi publicado automaticamente.

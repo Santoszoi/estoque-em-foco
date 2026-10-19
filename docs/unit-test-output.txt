@@ -1,0 +1,23 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> estoque-em-foco@1.0.0 test
+> node --test tests/filter.test.ts
+
+✔ zero, equal-to-minimum and above-minimum have distinct statuses (1.299128ms)
+✔ normalizes accents, case and outside spaces (0.256156ms)
+✔ matches all search terms independent of order and accent (0.384009ms)
+✔ searches SKU with case insensitivity (0.159561ms)
+✔ combines category, status and text with AND semantics (0.166842ms)
+✔ incompatible category and status produce empty results (0.141514ms)
+✔ whitespace search does not remove products (6.523025ms)
+✔ sorts by ascending stock without mutating source order (0.25879ms)
+✔ summarizes only the selected products using integer cents (0.273702ms)
+✔ empty summary is zero and input markup is only a search string (0.283868ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.001095
